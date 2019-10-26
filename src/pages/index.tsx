@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import TypescriptTest from "../components/TypescriptTest";
 import TestComponent from "../components/JoshTestComp/testComponent"
 
 import Layout from "../components/layout"
@@ -13,7 +12,7 @@ const IndexPage = () => (
     <h1>Hi people</h1>
 
     <TestComponent size="large" color="#33aa11">
-      <div>this is my first compontent in my new project</div>
+      <div>this is my first component in my new project</div>
     </TestComponent>
 
     <p>Welcome to your new Gatsby site.</p>

@@ -41,7 +41,7 @@ export interface ITestProps {
         <section className={`test-section ${this.props.size}`}>
         {this.state.hasLoaded ? 
             <div className="test-loaded" style={{ color: this.props.color, fontWeight: `bold` }}>
-                Hey there!! This is a test compoent, thanks for waiting! 
+                Hey there!! This is a test component, thanks for waiting! 
                 {this.props.children}
             </div>
             :
